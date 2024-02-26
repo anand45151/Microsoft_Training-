@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Registration Form</title>
+</head>
+<body>
+    <h1>Event Registration Form</h1>
+
+    <form >
+        <fieldset>
+            <legend>Participant Information</legend>
+            <table>
+                <tr>
+                    <td><label for="name">Name:</label></td>
+                    <td><input type="text" id="name" name="name"></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email:</label></td>
+                    <td><input type="email" id="email" name="email"></td>
+                </tr>
+                <tr>
+                    <td><label for="age">Age:</label></td>
+                    <td><input type="number" id="age" name="age"></td>
+                </tr>
+                <tr>
+                    <td><label for="gender">Gender:</label></td>
+                    <td>
+                        <input type="radio" id="male" name="gender" value="male"><label for="male">Male</label>
+                        <input type="radio" id="female" name="gender" value="female"><label for="female">Female</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="interests">Interests:</label></td>
+                    <td>
+                        <input type="checkbox" id="music" name="interests" value="music"><label for="music">Music</label>
+                        <input type="checkbox" id="sports" name="interests" value="sports"><label for="sports">Sports</label>
+                        <input type="checkbox" id="food" name="interests" value="food"><label for="food">Food</label>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+
+        <input type="submit" value="Register">
+    </form>
+
+    <p>By registering, you agree to our <a href="#terms">terms and conditions</a>.</p>
+
+    <p>For additional event details, visit our <a href="#details">event details</a> page.</p>
+
+    <div id="terms">
+    
+        <h2>Terms and Conditions</h2>
+        
+    </div>
+
+    <div id="details">
+
+        <h2>Event Details</h2>
+
+    </div>
+</body>
+</html>

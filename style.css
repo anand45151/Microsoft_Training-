@@ -1,0 +1,9 @@
+*{
+    margin: 0;
+    padding: auto;
+}
+ul li {
+    
+    display: inline-block;
+    position: fixed;
+}
